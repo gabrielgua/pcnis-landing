@@ -1,12 +1,15 @@
 <script setup lang="ts">
+import Container from './Container.vue';
 import LanguageSelect from './languageSelect.vue';
 import Logo from './Logo.vue';
 
 </script>
 
 <template template>
-  <header class="flex items-center justify-between shadow-sm p-6">
-    <Logo />
-    <LanguageSelect />
+  <header class="shadow-xs sticky top-0 py-6 z-20">
+    <Container class="flex items-center justify-between ">
+      <Logo />
+      <LanguageSelect />
+    </Container>
   </header>
 </template>

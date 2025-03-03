@@ -1,12 +1,12 @@
 <script setup lang="ts">
+import About from '@/components/About.vue';
 import Header from '@/components/Header.vue';
+import Hero from '@/components/Hero.vue';
 
 </script>
 
 <template>
   <Header />
-  <main>
-    <h1>{{ $t('hero') }}</h1>
-    <p>{{ $t('support') }}</p>
-  </main>
+  <Hero />
+  <About />
 </template>
