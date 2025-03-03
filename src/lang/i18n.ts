@@ -2,26 +2,29 @@ import { createI18n } from 'vue-i18n'
 
 const messages = {
   en: {
-    heroHeader: 'Innovative Medical Solutions <br/> for a Healthier Tomorrow',
+    heroHeader:
+      'Innovative <span class="text-primary">Medical solutions</span> <br/> for a <span class="text-primary">Healthier Tomorrow</span>',
     heroSubHeadline:
-      'We provide high-quality medical products designed to enhance patient care, ensuring safety, reliability, and innovation in every solution.',
+      'We provide high-quality medical products designed to enhance patient care, <br/> ensuring safety, reliability, and innovation in every solution.',
     heroProductButton: 'Explore our product catalog',
     aboutTitle: 'About us',
 
     support: 'Contact our support at {email}',
   },
   fr: {
-    heroHeader: 'Des solutions médicales innovantes <br/> pour un avenir plus sain',
+    heroHeader:
+      'Des <span class="text-primary">Solutions médicales</span> innovantes <br/> pour un <span class="text-primary">Avenir plus sain</span>',
     heroSubHeadline:
-      "Nous fournissons des produits médicaux de haute qualité conçus pour améliorer les soins aux patients, en garantissant la sécurité, la fiabilité et l'innovation dans chaque solution.",
+      "Nous fournissons des produits médicaux de haute qualité conçus pour améliorer les soins aux patients, <br/> en garantissant la sécurité, la fiabilité et l'innovation dans chaque solution.",
     heroProductButton: 'Découvrez notre catalogue de produits',
     aboutTitle: 'À propos de nous',
     support: "Contactez notre service d'assistance à l'adresse suivante: {email}",
   },
   br: {
-    heroHeader: 'Soluções médicas inovadoras <br/> para um futuro mais saudável',
+    heroHeader:
+      '<span class="text-primary">Soluções médicas</span> inovadoras <br/> para um <span class="text-primary">Futuro mais saudável</span>',
     heroSubHeadline:
-      'Fornecemos produtos médicos de alta qualidade projetados para aprimorar o atendimento ao paciente, garantindo segurança, confiabilidade e inovação em cada solução.',
+      'Fornecemos produtos médicos de alta qualidade projetados para aprimorar o atendimento ao paciente, <br/> garantindo segurança, confiabilidade e inovação em cada solução.',
     heroProductButton: 'Explore nosso catálogo de produtos',
     aboutTitle: 'Sobre nós',
     support: 'Contate o nosso suporte pelo e-mail {email}',

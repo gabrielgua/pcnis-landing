@@ -10,10 +10,12 @@ withDefaults(defineProps<{
 });
 
 const buttonStyles = new Map<ButtonVariant, string>([
-  ['primary', 'bg-sky-600 text-white'],
-  ['secondary', 'bg-zinc-600 text-white'],
-  ['primary-ghost', 'bg-sky-100 text-sky-600'],
-  ['secondary-ghost', 'bg-zinc-100 text-zinc-900'],
+  ['primary', 'bg-primary text-white'],
+  ['accent', 'bg-accent text-white'],
+  ['secondary', 'bg-secondary text-white'],
+  ['primary-ghost', 'bg-primary/10 text-primary'],
+  ['accent-ghost', 'bg-accent/10 text-accent'],
+  ['secondary-ghost', 'bg-secondary/10 text-zinc-900'],
 ])
 
 const buttonSizes = new Map<ButtonSize, string>([
@@ -26,7 +28,7 @@ const buttonSizes = new Map<ButtonSize, string>([
 </script>
 
 <template>
-  <button class="active:scale-95 cursor-pointer transition-all"
+  <button class="flex items-center gap-4 active:scale-95 cursor-pointer transition-all"
     :class="[buttonStyles.get(variant), buttonSizes.get(size)]">
     <slot />
   </button>

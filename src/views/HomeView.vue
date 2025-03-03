@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import About from '@/components/About.vue';
 import Header from '@/components/Header.vue';
 import Hero from '@/components/Hero.vue';
 
@@ -8,5 +7,6 @@ import Hero from '@/components/Hero.vue';
 <template>
   <Header />
   <Hero />
-  <About />
+
+  <Footer />
 </template>

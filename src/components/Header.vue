@@ -6,7 +6,7 @@ import Logo from './Logo.vue';
 </script>
 
 <template template>
-  <header class="shadow-xs sticky top-0 py-6 z-20">
+  <header class="sticky top-0 py-12 z-20">
     <Container class="flex items-center justify-between ">
       <Logo />
       <LanguageSelect />

@@ -3,3 +3,13 @@
 :root {
   font-family: 'Poppins', sans-serif;
 }
+
+@theme {
+  --color-primary: var(--color-sky-600);
+  --color-accent: var(--color-violet-500);
+  --color-secondary: var(--color-zinc-600);
+
+  --color-text-heading: var(--color-primary);
+  --color-text-primary: var(--color-slate-900);
+  --color-text-secondary: var(--color-secondary);
+}
