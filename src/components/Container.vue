@@ -5,6 +5,6 @@
 </template>
 <style lang="css">
 .container-custom {
-  width: min(1536px, 100% - 3rem);
+  width: min(1536px, 100% - 6rem);
 }
 </style>

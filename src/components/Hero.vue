@@ -6,23 +6,30 @@ import Icon from './Icon.vue';
 </script>
 
 <template>
-  <main class="py-[5rem] ">
+  <main class="py-[6rem] ">
     <Container class="flex items-center justify-between gap-6">
-      <div class="flex flex-col gap-12">
+      <div
+        class="flex flex-col items-start gap-12 border border-primary/20 rounded-3xl shadow-xl shadow-accent/10 bg-white/80 p-8">
+        <Icon icon="info-circle" class="text-primary ring ring-primary ring-offset-2 rounded-full" />
         <div class="flex flex-col gap-6">
-          <h1 v-html="$t('heroHeader')" class="text-4xl font-bold text-text-primary"></h1>
+          <h1 v-html="$t('heroHeader')" class="text-4xl font-bold text-text-primary">
+          </h1>
           <p v-html="$t('heroSubHeadline')" class="text-text-secondary text-sm"></p>
         </div>
 
-        <div class="flex items-center gap-4">
-          <Button variant="primary" size="lg">
-            {{ $t('heroProductButton') }}
-            <Icon icon="arrow-right" size="sm" />
-          </Button>
-        </div>
+        <Button variant="primary" size="lg" class="max-w-max">
+          {{ $t('heroCardButton') }}
+          <Icon icon="arrow-right" size="sm" />
+        </Button>
       </div>
-
-      <img class="rounded-2xl" src="https://placehold.co/600x400" alt="">
     </Container>
   </main>
 </template>
+
+<style lang="css" scoped>
+main {
+  background-image: radial-gradient(var(--color-primary) 1px, transparent 0);
+  background-size: 2.5rem 2.5rem;
+  background-position: -19px -10px;
+}
+</style>
