@@ -8,8 +8,10 @@ import About from '@/components/About.vue';
 
 <template>
   <Header />
-  <Hero />
-  <Categories />
-  <About id="about" />
+  <main class="flex flex-col gap-12">
+    <Hero />
+    <Categories />
+    <About id="about" />
+  </main>
   <Footer />
 </template>
