@@ -7,18 +7,18 @@ import Icon from './Icon.vue';
 
 <template>
   <section class="py-12 bg-sky-50">
-    <Container class="flex flex-col gap-12">
+    <Container class="flex flex-col gap-16">
       <header>
         <h2 class="text-text-primary font-semibold text-3xl mb-3">{{ $t('aboutTitle') }}</h2>
         <p class="text-text-primary" v-html="$t('aboutSubtitle')"></p>
       </header>
-      <div class="grid grid-cols-[auto_1fr] gap-12">
+      <div class="grid grid-cols-[auto_1fr] gap-16">
         <Card>
           <img src="../assets/images/about.png" alt="About image" class="rounded-2xl max-h-[400px]">
         </Card>
         <div class="flex flex-col gap-3 items-start">
           <header>
-            <Card class="size-10 grid place-items-center p-0! mb-6">
+            <Card class="size-12 grid place-items-center p-0! mb-6">
               <Icon icon="circle-question" class="text-primary" size="lg" />
             </Card>
             <h2 class="text-text-primary font-semibold text-3xl">{{ $t('whoWeAreTitle') }}</h2>
@@ -26,35 +26,46 @@ import Icon from './Icon.vue';
           <p class="text-base font-light text-text-primary" v-html="$t('whoWeAreContent')"></p>
         </div>
       </div>
-      <div class="grid grid-cols-[1fr_auto] gap-12 ">
+      <div class="grid grid-cols-[1fr_2fr] gap-16 mt-6">
         <div class="flex flex-col gap-3 items-start">
           <header>
-            <Card class="size-10 grid place-items-center p-0! mb-6">
+            <Card class="size-12 grid place-items-center p-0! mb-6">
               <Icon icon="bullseye" class="text-primary" size="lg" />
             </Card>
             <h2 class="text-text-primary font-semibold text-3xl">{{ $t('whyChooseUsTitle') }}</h2>
           </header>
           <p class="font-light text-text-primary">{{ $t('whyChooseUsContentHeader') }}</p>
-          <ul class="list-disc font-light text-text-primary ms-4">
-            <li v-html="$t('whyChooseUsHighQualityProducts')"></li>
-            <li v-html="$t('whyChooseUsHighExpertise')"></li>
-            <li v-html="$t('whyChooseUsHighTrusted')"></li>
-            <li v-html="$t('whyChooseUsHighCanada')"></li>
-          </ul>
+
           <p class="font-light text-text-primary">{{ $t('whyChooseUsContentFooter') }}</p>
+
         </div>
-        <Card>
-          <img src="../assets/images/hand_shake.jpg" alt="About image" class="rounded-2xl max-h-[400px]">
-        </Card>
+        <ul class="flex flex-col gap-6 font-light text-text-primary">
+          <li>
+            <Card class="flex items-center gap-4">
+              <Icon icon="check-circle" class="text-primary ring ring-offset-2 rounded-full" />
+              <p v-html="$t('whyChooseUsHighQualityProducts')"></p>
+            </Card>
+          </li>
+          <li>
+            <Card class="flex items-center gap-4">
+              <Icon icon="check-circle" class="text-primary ring ring-offset-2 rounded-full" />
+              <p v-html="$t('whyChooseUsHighExpertise')"></p>
+            </Card>
+          </li>
+          <li>
+            <Card class="flex items-center gap-4">
+              <Icon icon="check-circle" class="text-primary ring ring-offset-2 rounded-full" />
+              <p v-html="$t('whyChooseUsHighTrusted')"></p>
+            </Card>
+          </li>
+          <li>
+            <Card class="flex items-center gap-4">
+              <Icon icon="check-circle" class="text-primary ring ring-offset-2 rounded-full" />
+              <p v-html="$t('whyChooseUsHighCanada')"></p>
+            </Card>
+          </li>
+        </ul>
       </div>
     </Container>
   </section>
 </template>
-
-<style scoped>
-.dotted-bg {
-  background-image: radial-gradient(var(--color-primary) 1px, transparent 0);
-  background-size: 2.5rem 2.5rem;
-  background-position: -19px -10px;
-}
-</style>

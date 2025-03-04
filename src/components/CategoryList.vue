@@ -6,6 +6,8 @@ import towelsImg from '@/assets/images/towels.jpeg';
 import jewelryImg from '@/assets/images/jewelry.jpg';
 import { useI18n } from 'vue-i18n';
 import { computed, ref } from 'vue';
+import Button from './Button.vue';
+import Icon from './Icon.vue';
 
 const { t } = useI18n();
 
@@ -21,10 +23,17 @@ const categories = computed(() => [
 <template>
   <ul class="gap-6 grid grid-cols-4">
 
-    <Card v-for="(categorie, index) in categories" :key="index" class="hover:scale-105 cursor-pointer transition-all">
+    <Card v-for="(categorie, index) in categories" :key="index" class="flex flex-col hover:scale-105 transition-all">
       <img class="rounded-2xl w-full max-h-[220px] object-cover" :src="categorie.img" alt="product">
-      <h2 class="font-semibold text-xl text-primary my-4">{{ categorie.title }}</h2>
-      <p class="text-text-secondary text-sm">{{ categorie.description }}</p>
+      <h2 class="font-semibold text-xl text-text-primary my-4">{{ categorie.title }}</h2>
+      <p class="text-text-secondary text-sm mb-4">{{ categorie.description }}</p>
+
+      <div class="mt-auto">
+        <Button variant="primary-link">
+          {{ $t('categoryButton') }}
+          <Icon icon="arrow-right" size="sm" />
+        </Button>
+      </div>
     </Card>
   </ul>
 </template>

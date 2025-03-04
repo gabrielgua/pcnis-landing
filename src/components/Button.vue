@@ -19,7 +19,7 @@ const buttonStyles = new Map<ButtonVariant, string>([
   ['primary-ghost', 'bg-primary/10 text-primary'],
   ['accent-ghost', 'bg-accent/10 text-accent'],
   ['secondary-ghost', 'bg-secondary/10 text-zinc-900'],
-  ['primary-link', 'bg-transparent text-primary hover:underline underline-offset-3']
+  ['primary-link', 'bg-transparent text-primary hover:underline underline-offset-3 p-0!']
 ])
 
 const buttonSizes = new Map<ButtonSize, string>([

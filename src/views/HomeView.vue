@@ -10,6 +10,6 @@ import About from '@/components/About.vue';
   <Header />
   <Hero />
   <Categories />
-  <About />
+  <About id="about" />
   <Footer />
 </template>

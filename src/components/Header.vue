@@ -15,7 +15,7 @@ import RouterButton from './RouterButton.vue';
           <RouterButton to="">{{ $t('headerLinkProducts') }}</RouterButton>
         </li>
         <li>
-          <RouterButton to="">{{ $t('headerLinkAbout') }}</RouterButton>
+          <RouterButton to="#about">{{ $t('headerLinkAbout') }}</RouterButton>
         </li>
         <li>
           <RouterButton to="">{{ $t('headerLinkContact') }}</RouterButton>
