@@ -12,4 +12,7 @@
   --color-text-heading: var(--color-primary);
   --color-text-primary: var(--color-slate-900);
   --color-text-secondary: var(--color-secondary);
+
+  --color-text-primary-light: var(--color-white);
+  --color-text-secondary-light: var(--color-slate-200);
 }

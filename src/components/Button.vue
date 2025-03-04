@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 type ButtonVariant =
-  'primary' | 'accent' | 'secondary' |
+  'neutral' | 'primary' | 'accent' | 'secondary' |
   'primary-ghost' | 'accent-ghost' | 'secondary-ghost' |
   'primary-link';
 type ButtonSize = 'sm' | 'base' | 'lg' | 'xs';
@@ -13,13 +13,14 @@ withDefaults(defineProps<{
 });
 
 const buttonStyles = new Map<ButtonVariant, string>([
+  ['neutral', 'bg-white text-text-primary'],
   ['primary', 'bg-primary text-white'],
   ['accent', 'bg-accent text-white'],
   ['secondary', 'bg-secondary text-white'],
   ['primary-ghost', 'bg-primary/10 text-primary'],
   ['accent-ghost', 'bg-accent/10 text-accent'],
   ['secondary-ghost', 'bg-secondary/10 text-zinc-900'],
-  ['primary-link', 'bg-transparent text-primary hover:underline underline-offset-3 p-0!']
+  ['primary-link', 'bg-transparent text-primary hover:underline underline-offset-3 p-0!'],
 ])
 
 const buttonSizes = new Map<ButtonSize, string>([

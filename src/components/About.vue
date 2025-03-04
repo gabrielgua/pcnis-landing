@@ -28,39 +28,43 @@ const bulletPoints = computed(() => [
       <p class="text-text-primary" v-html="$t('aboutSubtitle')"></p>
     </template>
     <template #content>
-      <AboutSubSection class="grid-cols-[auto_1fr]">
-        <Card>
-          <img src="../assets/images/about.png" alt="About image" class="rounded-2xl max-h-[400px]">
-        </Card>
-        <AboutSubSectionContent icon="circle-question">
-          <template #title>{{ $t('whoWeAreTitle') }}</template>
-          <template #content>
-            <p class="text-base font-light text-text-primary" v-html="$t('whoWeAreContent')"></p>
-          </template>
-        </AboutSubSectionContent>
-      </AboutSubSection>
-      <AboutSubSection class="grid-cols-[1fr_2fr]">
-        <AboutSubSectionContent icon="bullseye">
-          <template #title>{{ $t('whyChooseUsTitle') }}</template>
-          <template #content>
-            {{ $t('whyChooseUsContentHeader') }}
-            <br /><br />
-            {{ $t('whyChooseUsContentFooter') }}
-          </template>
-        </AboutSubSectionContent>
+      <section class="flex flex-col gap-44">
 
-        <TransitionGroup tag="ul" class="flex flex-col gap-6" name="bullet-point-list">
-          <BulletPointItem v-for="(item, index) in bulletPoints" :key="index">
-            <template #title>
-              <p class="font-semibold">{{ item.title }}</p>
+
+        <AboutSubSection class="grid-cols-[auto_1fr]">
+          <Card>
+            <img src="../assets/images/about.png" alt="About image" class="rounded-2xl max-h-[400px]">
+          </Card>
+          <AboutSubSectionContent icon="circle-question">
+            <template #title>{{ $t('whoWeAreTitle') }}</template>
+            <template #content>
+              <p class="text-base font-light text-text-primary" v-html="$t('whoWeAreContent')"></p>
             </template>
-            <template #icon>
-              <Icon :icon="item.icon" class="text-primary" size="lg" />
+          </AboutSubSectionContent>
+        </AboutSubSection>
+        <AboutSubSection class="grid-cols-[1fr_2fr]">
+          <AboutSubSectionContent icon="bullseye">
+            <template #title>{{ $t('whyChooseUsTitle') }}</template>
+            <template #content>
+              {{ $t('whyChooseUsContentHeader') }}
+              <br /><br />
+              {{ $t('whyChooseUsContentFooter') }}
             </template>
-            <p class="font-light text-start">{{ item.content }}</p>
-          </BulletPointItem>
-        </TransitionGroup>
-      </AboutSubSection>
+          </AboutSubSectionContent>
+
+          <TransitionGroup tag="ul" class="flex flex-col gap-6" name="bullet-point-list">
+            <BulletPointItem v-for="(item, index) in bulletPoints" :key="index">
+              <template #title>
+                <p class="font-semibold">{{ item.title }}</p>
+              </template>
+              <template #icon>
+                <Icon :icon="item.icon" class="text-primary" size="lg" />
+              </template>
+              <p class="font-light text-start">{{ item.content }}</p>
+            </BulletPointItem>
+          </TransitionGroup>
+        </AboutSubSection>
+      </section>
     </template>
   </Section>
 </template>

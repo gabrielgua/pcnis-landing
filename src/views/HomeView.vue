@@ -3,6 +3,7 @@ import Header from '@/components/Header.vue';
 import Hero from '@/components/Hero.vue';
 import Categories from '@/components/Categories.vue';
 import About from '@/components/About.vue';
+import Contact from '@/components/Contact.vue';
 
 </script>
 
@@ -12,6 +13,7 @@ import About from '@/components/About.vue';
     <Hero />
     <Categories />
     <About id="about" />
+    <Contact class="mt-12" />
   </main>
   <Footer />
 </template>

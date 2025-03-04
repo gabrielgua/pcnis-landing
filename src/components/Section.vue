@@ -14,9 +14,7 @@ import Container from './Container.vue';
           <slot name="subtitle">Subtitle</slot>
         </p>
       </header>
-      <div class="flex flex-col gap-42">
-        <slot name="content" />
-      </div>
+      <slot name="content" />
     </Container>
   </section>
 </template>
