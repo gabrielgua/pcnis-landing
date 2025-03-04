@@ -24,8 +24,29 @@ const messages = {
     categoriesTowelsDescription: 'Essential products for hygiene and assisted care.',
 
     categoriesJewelryTitle: 'Jewelry ',
-    categoriesJewelrysDescription:
+    categoriesJewelryDescription:
       'Specialized accessories designed for both style and functionality.',
+
+    aboutTitle: 'About us',
+    aboutSubtitle: 'Learn more about our mission, values, and commitment.',
+
+    whoWeAreTitle: 'Who we are',
+    whoWeAreContent:
+      'At PCNIS Inc., we are committed to providing high-quality products that enhance comfort and well-being. Based in <span class="font-semibold">Québec, Canada,</span> we specialize in <span class="text-primary font-semibold">pharmacy</span> essentials, <span class="text-primary font-semibold">clothing</span>, <span class="text-primary font-semibold">bath linens</span>, and <span class="text-primary font-semibold">jewelry</span>, offering reliable and practical solutions for everyday needs. Our dedication to quality and customer satisfaction ensures that every product meets the highest standards. Whether at home or on the go, PCNIS Inc. is here to bring convenience and care to your daily life.',
+
+    whyChooseUsTitle: 'Why choose us?',
+    whyChooseUsContentHeader:
+      'At PCNIS Inc., we prioritize quality, reliability, and customer satisfaction in everything we do. Here’s why you can trust us:',
+    whyChooseUsHighQualityProducts:
+      '<span class="text-primary font-semibold">High-Quality Products</span> – Carefully selected to meet the highest standards.',
+    whyChooseUsHighExpertise:
+      '<span class="text-primary font-semibold">Expertise & Commitment</span> – A dedicated team ensuring the best solutions for your needs.',
+    whyChooseUsHighTrusted:
+      '<span class="text-primary font-semibold">Trusted & Reliable</span> – Products designed for comfort, safety, and long-term use.',
+    whyChooseUsHighCanada:
+      '<span class="text-primary font-semibold">Based in Québec, Canada</span> – Proudly serving customers with excellence and care.',
+    whyChooseUsContentFooter:
+      'Choose PCNIS Inc. for products that enhance daily life with comfort and confidence.',
   },
   fr: {
     headerLinkContact: 'Contact',
