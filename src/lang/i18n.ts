@@ -38,14 +38,20 @@ const messages = {
     whyChooseUsTitle: 'Why choose us?',
     whyChooseUsContentHeader:
       'At PCNIS Inc., we prioritize quality, reliability, and customer satisfaction in everything we do. Here’s why you can trust us:',
-    whyChooseUsHighQualityProducts:
-      '<span class="font-semibold">High-Quality Products</span> – Carefully selected to meet the highest standards.',
-    whyChooseUsHighExpertise:
-      '<span class="font-semibold">Expertise & Commitment</span> – A dedicated team ensuring the best solutions for your needs.',
-    whyChooseUsHighTrusted:
-      '<span class="font-semibold">Trusted & Reliable</span> – Products designed for comfort, safety, and long-term use.',
-    whyChooseUsHighCanada:
-      '<span class="font-semibold">Based in Québec, Canada</span> – Proudly serving customers with excellence and care.',
+
+    whyChooseUsHighQualityProductsTitle: 'High-Quality Products',
+    whyChooseUsHighQualityProductsContent: ' Carefully selected to meet the highest standards.',
+
+    whyChooseUsHighExpertiseTitle: 'Expertise & Commitment',
+    whyChooseUsHighExpertiseContent:
+      ' A dedicated team ensuring the best solutions for your needs.',
+
+    whyChooseUsHighTrustedTitle: 'Trusted & Reliable',
+    whyChooseUsHighTrustedContent: 'Products designed for comfort, safety, and long-term use.',
+
+    whyChooseUsHighCanadaTitle: 'Based in Québec, Canada',
+    whyChooseUsHighCanadaContent: ' Proudly serving customers with excellence and care.',
+
     whyChooseUsContentFooter:
       'Choose PCNIS Inc. for products that enhance daily life with comfort and confidence.',
   },
@@ -54,7 +60,7 @@ const messages = {
     headerLinkAbout: 'À propos de nous',
     headerLinkProducts: 'Produits',
     heroHeader:
-      '<span class="text-primary">Bienvenue</span> sur le site de PCNIS Inc, <br /> où vous <span class="text-primary">apprendrez à mieux nous connaître!</span>',
+      '<span class="text-primary">Bienvenue</span> sur le site de PCNIS Inc, <br /> où vous <span class="text-primary">apprendrez à mieux nous connaître !</span>',
     heroSubHeadline:
       "Nous fournissons des produits médicaux de haute qualité conçus pour améliorer les soins aux patients, <br/> en garantissant la sécurité, la fiabilité et l'innovation dans chaque solution.",
     heroCardButton: "Plus d'informations",
@@ -87,20 +93,20 @@ const messages = {
     whyChooseUsContentHeader:
       'Chez PCNIS Inc., nous mettons la qualité, la fiabilité et la satisfaction du client au cœur de tout ce que nous faisons. Voici pourquoi vous pouvez nous faire confiance :',
 
-    whyChooseUsHighQualityProducts:
-      '<span class="font-semibold">Produits de haute qualité</span> – Soigneusement sélectionnés pour répondre aux normes les plus élevées.',
+    whyChooseUsHighQualityProductsTitle: 'Produits de haute qualité',
+    whyChooseUsHighQualityProductsContent:
+      'Soigneusement sélectionnés pour répondre aux normes les plus élevées.',
 
-    whyChooseUsHighExpertise:
-      '<span class="font-semibold">Expertise & Engagement</span> – Une équipe dévouée assurant les meilleures solutions pour vos besoins.',
+    whyChooseUsHighExpertiseTitle: 'Expertise & Engagement',
+    whyChooseUsHighExpertiseContent:
+      'Une équipe dévouée assurant les meilleures solutions pour vos besoins.',
 
-    whyChooseUsHighTrusted:
-      '<span class="font-semibold">Fiable & Digne de confiance</span> – Des produits conçus pour le confort, la sécurité et une utilisation à long terme.',
+    whyChooseUsHighTrustedTitle: 'Fiable & Digne de confiance',
+    whyChooseUsHighTrustedContent:
+      'Des produits conçus pour le confort, la sécurité et une utilisation à long terme.',
 
-    whyChooseUsHighCanada:
-      '<span class="font-semibold">Basé à Québec, Canada</span> – Fier de servir nos clients avec excellence et attention.',
-
-    whyChooseUsContentFooter:
-      'Choisissez PCNIS Inc. pour des produits qui améliorent la vie quotidienne avec confort et confiance.',
+    whyChooseUsHighCanadaTitle: 'Basé à Québec, Canada',
+    whyChooseUsHighCanadaContent: 'Fier de servir nos clients avec excellence et attention.',
   },
   br: {
     headerLinkContact: 'Contato',
@@ -144,20 +150,19 @@ const messages = {
     whyChooseUsContentHeader:
       'Na PCNIS Inc., priorizamos qualidade, confiabilidade e satisfação do cliente em tudo o que fazemos. Aqui está o porquê você pode confiar em nós:',
 
-    whyChooseUsHighQualityProducts:
-      '<span class="font-semibold">Produtos de Alta Qualidade</span> – Cuidadosamente selecionados para atender aos mais altos padrões.',
+    whyChooseUsHighQualityProductsTitle: 'Produtos de Alta Qualidade',
+    whyChooseUsHighQualityProductsContent:
+      'Cuidadosamente selecionados para atender aos mais altos padrões.',
 
-    whyChooseUsHighExpertise:
-      '<span class="font-semibold">Expertise & Compromisso</span> – Uma equipe dedicada garantindo as melhores soluções para suas necessidades.',
+    whyChooseUsHighExpertiseTitle: 'Expertise & Compromisso',
+    whyChooseUsHighExpertiseContent:
+      'Uma equipe dedicada garantindo as melhores soluções para suas necessidades.',
 
-    whyChooseUsHighTrusted:
-      '<span class="font-semibold">Confiável & Seguro</span> – Produtos projetados para conforto, segurança e uso prolongado.',
+    whyChooseUsHighTrustedTitle: 'Confiável & Seguro',
+    whyChooseUsHighTrustedContent: 'Produtos projetados para conforto, segurança e uso prolongado.',
 
-    whyChooseUsHighCanada:
-      '<span class="font-semibold">Sediada em Québec, Canadá</span> – Atendendo clientes com excelência e dedicação.',
-
-    whyChooseUsContentFooter:
-      'Escolha a PCNIS Inc. para produtos que melhoram a vida diária com conforto e confiança.',
+    whyChooseUsHighCanadaTitle: 'Sediada em Québec, Canadá',
+    whyChooseUsHighCanadaContent: 'Atendendo clientes com excelência e dedicação.',
   },
 }
 

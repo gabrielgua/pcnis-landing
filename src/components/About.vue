@@ -1,71 +1,58 @@
 <script setup lang="ts">
+import { computed } from 'vue';
+import { useI18n } from 'vue-i18n';
+import AboutSubSection from './AboutSubSection.vue';
+import AboutSubSectionContent from './AboutSubSectionContent.vue';
+import BulletPointItem from './BulletPointItem.vue';
 import Card from './Card.vue';
-import Container from './Container.vue';
-import Icon from './Icon.vue';
+import Section from './Section.vue';
+
+const { t } = useI18n();
+
+const bulletPoints = computed(() => [
+  { title: t('whyChooseUsHighQualityProductsTitle'), content: t('whyChooseUsHighQualityProductsContent') },
+  { title: t('whyChooseUsHighExpertiseTitle'), content: t('whyChooseUsHighExpertiseContent') },
+  { title: t('whyChooseUsHighTrustedTitle'), content: t('whyChooseUsHighTrustedContent') },
+  { title: t('whyChooseUsHighCanadaTitle'), content: t('whyChooseUsHighCanadaContent') },
+]);
 
 </script>
 
 <template>
-  <section class="py-12 bg-sky-50">
-    <Container class="flex flex-col gap-16">
-      <header>
-        <h2 class="text-text-primary font-semibold text-3xl mb-3">{{ $t('aboutTitle') }}</h2>
-        <p class="text-text-primary" v-html="$t('aboutSubtitle')"></p>
-      </header>
-      <div class="grid grid-cols-[auto_1fr] gap-16">
+  <Section class="bg-sky-50">
+    <template #title>{{ $t('aboutTitle') }}</template>
+    <template #subtitle>
+      <p class="text-text-primary" v-html="$t('aboutSubtitle')"></p>
+    </template>
+    <template #content>
+      <AboutSubSection class="grid-cols-[auto_1fr]">
         <Card>
           <img src="../assets/images/about.png" alt="About image" class="rounded-2xl max-h-[400px]">
         </Card>
-        <div class="flex flex-col gap-3 items-start">
-          <header>
-            <Card class="size-12 grid place-items-center p-0! mb-6">
-              <Icon icon="circle-question" class="text-primary" size="lg" />
-            </Card>
-            <h2 class="text-text-primary font-semibold text-3xl">{{ $t('whoWeAreTitle') }}</h2>
-          </header>
-          <p class="text-base font-light text-text-primary" v-html="$t('whoWeAreContent')"></p>
-        </div>
-      </div>
-      <div class="grid grid-cols-[1fr_2fr] gap-16 mt-6">
-        <div class="flex flex-col gap-3 items-start">
-          <header>
-            <Card class="size-12 grid place-items-center p-0! mb-6">
-              <Icon icon="bullseye" class="text-primary" size="lg" />
-            </Card>
-            <h2 class="text-text-primary font-semibold text-3xl">{{ $t('whyChooseUsTitle') }}</h2>
-          </header>
-          <p class="font-light text-text-primary">{{ $t('whyChooseUsContentHeader') }}</p>
+        <AboutSubSectionContent icon="circle-question">
+          <template #title>{{ $t('whoWeAreTitle') }}</template>
+          <template #content>
+            <p class="text-base font-light text-text-primary" v-html="$t('whoWeAreContent')"></p>
+          </template>
+        </AboutSubSectionContent>
+      </AboutSubSection>
+      <AboutSubSection class="grid-cols-[1fr_2fr]">
+        <AboutSubSectionContent icon="bullseye">
+          <template #title>{{ $t('whyChooseUsTitle') }}</template>
+          <template #content>
+            {{ $t('whyChooseUsContentHeader') }}
+            <br /><br />
+            {{ $t('whyChooseUsContentFooter') }}
+          </template>
+        </AboutSubSectionContent>
 
-          <p class="font-light text-text-primary">{{ $t('whyChooseUsContentFooter') }}</p>
-
-        </div>
         <ul class="flex flex-col gap-6 font-light text-text-primary">
-          <li>
-            <Card class="flex items-center gap-4">
-              <Icon icon="check-circle" class="text-primary ring ring-offset-2 rounded-full" />
-              <p v-html="$t('whyChooseUsHighQualityProducts')"></p>
-            </Card>
-          </li>
-          <li>
-            <Card class="flex items-center gap-4">
-              <Icon icon="check-circle" class="text-primary ring ring-offset-2 rounded-full" />
-              <p v-html="$t('whyChooseUsHighExpertise')"></p>
-            </Card>
-          </li>
-          <li>
-            <Card class="flex items-center gap-4">
-              <Icon icon="check-circle" class="text-primary ring ring-offset-2 rounded-full" />
-              <p v-html="$t('whyChooseUsHighTrusted')"></p>
-            </Card>
-          </li>
-          <li>
-            <Card class="flex items-center gap-4">
-              <Icon icon="check-circle" class="text-primary ring ring-offset-2 rounded-full" />
-              <p v-html="$t('whyChooseUsHighCanada')"></p>
-            </Card>
-          </li>
+          <BulletPointItem v-for="(item, index) in bulletPoints" :key="index">
+            <p class="font-semibold">{{ item.title }} - <span class="font-light">{{ item.content }}</span></p>
+          </BulletPointItem>
         </ul>
-      </div>
-    </Container>
-  </section>
+      </AboutSubSection>
+    </template>
+
+  </Section>
 </template>
