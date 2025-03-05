@@ -5,7 +5,9 @@ import Card from './Card.vue';
 import Container from './Container.vue';
 import Icon from './Icon.vue';
 import Logo from './Logo.vue';
-import RouterButton from './RouterButton.vue';
+import RouterButton from './HeaderLink.vue';
+import FooterSection from './FooterSection.vue';
+import FooterLink from './FooterLink.vue';
 
 const socials = [
   { icon: 'fa-brands fa-instagram', link: '#' },
@@ -17,21 +19,18 @@ const socials = [
 </script>
 
 <template>
-  <footer class="bg-slate-950 text-text-primary-light p-6 ">
-    <Container class="grid grid-cols-5 content-center">
+  <footer class="bg-slate-950 text-text-primary-light pt-12 pb-6 ">
+    <Container class="grid grid-cols-5">
       <section class="flex flex-col gap-6">
-        <Card class="bg-white max-w-max">
-          <Logo />
-        </Card>
+        <Logo inverted />
         <p class="font-light text-sm text-text-secondary-light">
           {{ $t('footerWelcome') }}
           <br />
           {{ $t('footerWelcomeText') }}
         </p>
-
       </section>
-      <section>
-        <h5 class="text-sm font-semibold mb-2">{{ $t('footerSocialsTitle') }}</h5>
+      <FooterSection>
+        <template #title>{{ $t('footerSocialsTitle') }}</template>
         <ul class="flex items-center gap-3">
           <li v-for="(social, index) in socials" :key="index">
             <a :href="social.link" target="_blank">
@@ -41,47 +40,47 @@ const socials = [
             </a>
           </li>
         </ul>
-      </section>
+      </FooterSection>
 
-      <section>
-        <h5 class="text-sm font-semibold mb-2">{{ $t('footerQuickLinksTitle') }}</h5>
+      <FooterSection>
+        <template #title>{{ $t('footerQuickLinksTitle') }}</template>
         <ul class="flex flex-col gap-3">
           <li>
-            <RouterButton to="/">{{ $t('footerHomeLink') }}</RouterButton>
+            <FooterLink to="/">{{ $t('headerHomeLink') }}</FooterLink>
           </li>
           <li>
-            <RouterButton to="">{{ $t('footerProductsLink') }}</RouterButton>
+            <FooterLink to="/contact">{{ $t('headerContactLink') }}</FooterLink>
           </li>
           <li>
-            <RouterButton to="">{{ $t('footerAboutUsLink') }}</RouterButton>
+            <FooterLink to="/about">{{ $t('headerAboutUsLink') }}</FooterLink>
           </li>
           <li>
-            <RouterButton to="">{{ $t('footerContactLink') }}</RouterButton>
+            <FooterLink to="/products">{{ $t('headerProductsLink') }}</FooterLink>
           </li>
         </ul>
-      </section>
+      </FooterSection>
 
-      <section>
-        <h5 class="text-sm font-semibold mb-2">{{ $t('footerContactTitle') }}</h5>
+      <FooterSection>
+        <template #title>{{ $t('footerContactTitle') }}</template>
         <p class="text-sm font-light">{{ Constants.contactPhone }}</p>
         <p class="text-sm font-light">{{ Constants.supportEmail }}</p>
-      </section>
+      </FooterSection>
 
-      <section>
-        <h5 class="text-sm font-semibold mb-2">{{ $t('footerLocationTitle') }}</h5>
+      <FooterSection>
+        <template #title>{{ $t('footerLocationTitle') }}</template>
         <p class="text-sm font-light">Quebec QC, Canada.</p>
-      </section>
+      </FooterSection>
+
       <section
         class="col-span-5 mt-6 pt-6 text-text-secondary-light font-light text-xs flex items-center justify-between border-t border-t-primary/10">
         <p>&copy; {{ $t('footerCopyright') }}</p>
         <p>
           {{ $t('footerDevelopedBy') }}
-          <a href="https://github.com/gabrielgua" target="_blank" class="text-primary font-semibold"> @gabrielgua</a>
+          <a href="https://github.com/gabrielgua" target="_blank" class="text-primary font-semibold hover:underline">
+            @gabrielgua</a>
         </p>
 
       </section>
-
     </Container>
   </footer>
-
 </template>

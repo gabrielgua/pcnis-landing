@@ -9,7 +9,7 @@ import Icon from './Icon.vue';
   <main class="py-24 inset-shadow-[-1px_-7px_33px_12px_rgba(255,_255,_255,_0.1)] inset-shadow-white/80">
     <Container class="flex items-center justify-between gap-6">
       <div
-        class="flex flex-col items-start gap-12 border border-primary/20 rounded-3xl shadow-xl shadow-accent/10 bg-white/80 p-8">
+        class="max-w-[750px] flex flex-col items-start gap-12 border border-primary/20 rounded-3xl shadow-xl shadow-accent/10 bg-white/80 p-8">
         <Icon icon="info-circle" class="text-primary ring ring-primary ring-offset-2 rounded-full" />
         <div class="flex flex-col gap-6">
           <h1 v-html="$t('heroHeader')" class="text-4xl font-bold text-text-primary">

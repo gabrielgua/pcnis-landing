@@ -2,23 +2,27 @@
 import Container from './Container.vue';
 import LanguageSelect from './languageSelect.vue';
 import Logo from './Logo.vue';
-import RouterButton from './RouterButton.vue';
+import HeaderLink from './HeaderLink.vue';
 
 </script>
 
 <template template>
   <header class="sticky top-0 py-6 z-20 bg-white shadow-xl shadow-accent/5">
-    <Container class="flex items-center justify-between">
+    <Container class="flex items-center gap-12 justify-between">
       <Logo />
-      <ul class="flex items-center gap-2">
+      <ul class="flex items-center gap-6 ms-auto">
+
         <li>
-          <RouterButton to="">{{ $t('headerLinkProducts') }}</RouterButton>
+          <HeaderLink to="/">{{ $t('headerHomeLink') }}</HeaderLink>
         </li>
         <li>
-          <RouterButton to="#about">{{ $t('headerLinkAbout') }}</RouterButton>
+          <HeaderLink to="/products">{{ $t('headerProductsLink') }}</HeaderLink>
         </li>
         <li>
-          <RouterButton to="">{{ $t('headerLinkContact') }}</RouterButton>
+          <HeaderLink to="/about">{{ $t('headerAboutUsLink') }}</HeaderLink>
+        </li>
+        <li>
+          <HeaderLink to="/contact">{{ $t('headerContactLink') }}</HeaderLink>
         </li>
       </ul>
       <LanguageSelect />
