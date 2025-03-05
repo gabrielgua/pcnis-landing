@@ -54,6 +54,30 @@ const messages = {
 
     whyChooseUsContentFooter:
       'Choose PCNIS Inc. for products that enhance daily life with comfort and confidence.',
+
+    contactTitle: 'Contact Us',
+    contactSubtitle: 'Get in touch with us for inquiries, support, or more information.',
+
+    contactPhone: 'Phone Number',
+    contactEmail: 'Email Address',
+
+    contactButton: 'Contact us',
+
+    footerWelcome: 'Welcome to PCNIS Inc,',
+    footerWelcomeText: 'here you will get to know us better!',
+
+    footerSocialsTitle: 'Socials',
+    footerQuickLinksTitle: 'Quick Links',
+    footerHomeLink: 'Home',
+    footerProductsLink: 'Products',
+    footerAboutUsLink: 'About us',
+    footerContactLink: 'Contact',
+
+    footerContactTitle: 'Contact',
+    footerLocationTitle: 'Location',
+
+    footerCopyright: '2025 PCNIS Inc. All rights reserved.',
+    footerDevelopedBy: 'Developed by',
   },
   fr: {
     headerLinkContact: 'Contact',
@@ -107,6 +131,33 @@ const messages = {
 
     whyChooseUsHighCanadaTitle: 'Basé à Québec, Canada',
     whyChooseUsHighCanadaContent: 'Fier de servir nos clients avec excellence et attention.',
+
+    whyChooseUsContentFooter:
+      'Choisissez PCNIS Inc. pour des produits qui améliorent le quotidien avec confort et confiance.',
+
+    contactTitle: 'Contactez-nous',
+    contactSubtitle: 'Contactez-nous pour toute demande, support ou plus d’informations.',
+
+    contactPhone: 'Numéro de Téléphone',
+    contactEmail: 'Adresse E-mail',
+
+    contactButton: 'Contactez-nous',
+
+    footerWelcome: 'Bienvenue chez PCNIS Inc,',
+    footerWelcomeText: 'ici vous pourrez mieux nous connaître !',
+
+    footerSocialsTitle: 'Réseaux Sociaux',
+    footerQuickLinksTitle: 'Liens Rapides',
+    footerHomeLink: 'Accueil',
+    footerProductsLink: 'Produits',
+    footerAboutUsLink: 'À propos de nous',
+    footerContactLink: 'Contact',
+
+    footerContactTitle: 'Contact',
+    footerLocationTitle: 'Emplacement',
+
+    footerCopyright: '2025 PCNIS Inc. Tous droits réservés.',
+    footerDevelopedBy: 'Développé par',
   },
   br: {
     headerLinkContact: 'Contato',
@@ -163,6 +214,33 @@ const messages = {
 
     whyChooseUsHighCanadaTitle: 'Sediada em Québec, Canadá',
     whyChooseUsHighCanadaContent: 'Atendendo clientes com excelência e dedicação.',
+
+    whyChooseUsContentFooter:
+      'Escolha a PCNIS Inc. para produtos que aprimoram o dia a dia com conforto e confiança.',
+
+    contactTitle: 'Entre em Contato',
+    contactSubtitle: 'Fale conosco para dúvidas, suporte ou mais informações.',
+
+    contactPhone: 'Número de Telefone',
+    contactEmail: 'Endereço de E-mail',
+
+    contactButton: 'Entre em Contato',
+
+    footerWelcome: 'Bem-vindo à PCNIS Inc,',
+    footerWelcomeText: 'aqui você poderá nos conhecer melhor!',
+
+    footerSocialsTitle: 'Redes Sociais',
+    footerQuickLinksTitle: 'Links Rápidos',
+    footerHomeLink: 'Início',
+    footerProductsLink: 'Produtos',
+    footerAboutUsLink: 'Sobre nós',
+    footerContactLink: 'Contato',
+
+    footerContactTitle: 'Contato',
+    footerLocationTitle: 'Localização',
+
+    footerCopyright: '2025 PCNIS Inc. Todos os direitos reservados.',
+    footerDevelopedBy: 'Desenvolvido por',
   },
 }
 

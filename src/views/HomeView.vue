@@ -4,6 +4,7 @@ import Hero from '@/components/Hero.vue';
 import Categories from '@/components/Categories.vue';
 import About from '@/components/About.vue';
 import Contact from '@/components/Contact.vue';
+import Footer from '@/components/Footer.vue';
 
 </script>
 

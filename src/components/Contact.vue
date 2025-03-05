@@ -10,10 +10,10 @@ import Button from './Button.vue';
 <template>
   <Section class="bg-primary py-24">
     <template #title>
-      <h2 class="text-text-primary-light font-semibold text-3xl mb-3">Contact Us</h2>
+      <h2 class="text-text-primary-light font-semibold text-3xl mb-3">{{ $t('contactTitle') }}</h2>
     </template>
     <template #subtitle>
-      <p class="text-text-primary-light">Get in touch with us for inquiries, support, or more information.</p>
+      <p class="text-text-primary-light">{{ $t('contactSubtitle') }}</p>
     </template>
     <template #content>
       <section class="grid grid-cols-2">
@@ -22,7 +22,7 @@ import Button from './Button.vue';
             <Card class="size-10 grid place-items-center p-0! shadow-2xl! shadow-black/10">
               <Icon icon="phone" class="text-primary" />
             </Card>
-            <h2 class="font-semibold">Phone number</h2>
+            <h2 class="font-semibold">{{ $t('contactPhone') }}</h2>
           </div>
           <p class="font-light text-6xl">{{ Constants.contactPhone }}</p>
         </div>
@@ -31,13 +31,13 @@ import Button from './Button.vue';
             <Card class="size-10 grid place-items-center p-0! shadow-2xl! shadow-black/10">
               <Icon icon="envelope" class="text-primary" />
             </Card>
-            <h2 class="font-semibold">Email</h2>
+            <h2 class="font-semibold">{{ $t('contactEmail') }}</h2>
           </div>
           <p class="font-light text-6xl">{{ Constants.supportEmail }}</p>
         </div>
       </section>
       <Button variant="neutral" class="max-w-max" size="lg">
-        Contact us
+        {{ $t('contactButton') }}
         <Icon icon="arrow-right" size="sm" />
       </Button>
 
