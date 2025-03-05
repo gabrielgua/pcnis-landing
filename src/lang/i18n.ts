@@ -7,8 +7,11 @@ const messages = {
     headerAboutUsLink: 'About us',
     headerProductsLink: 'Products',
 
-    heroHeader:
-      '<span class="text-primary">Welcome</span> to PCNIS Inc, <br/> here you will get to <span class="text-primary">know us better!</span>',
+    heroWelcome: 'Welcome',
+    heroWelcomeFollowUp: 'to PCNIS Inc,',
+    heroSecondLine: 'here you will get to',
+    heroSecondLineFollowUp: 'know us better!',
+
     heroSubHeadline:
       'We provide high-quality products designed to enhance customer satisfaction, ensuring safety, reliability, and innovation in every solution.',
     heroCardButton: 'More information',
@@ -33,12 +36,18 @@ const messages = {
     aboutSubtitle: 'Learn more about our mission, values, and commitment.',
 
     whoWeAreTitle: 'Who we are',
-    whoWeAreContent:
-      'At PCNIS Inc., we are committed to providing high-quality products that enhance comfort and well-being. <br /><br> Based in Québec, Canada, we specialize in pharmacy essentials, clothing, bath linens, and jewelry, offering reliable and practical solutions for everyday needs. Our dedication to quality and customer satisfaction ensures that every product meets the highest standards. <br/><br/> Whether at home or on the go, PCNIS Inc. is here to bring convenience and care to your daily life.',
+    whoWeAreFirstParagraph:
+      'At PCNIS Inc., we are committed to providing high-quality products that enhance comfort and well-being.',
+    whoWeAreSecondParagraph:
+      'Based in Québec, Canada, we specialize in pharmacy essentials, clothing, bath linens, and jewelry, offering reliable and practical solutions for everyday needs. Our dedication to quality and customer satisfaction ensures that every product meets the highest standards. ',
+    whoWeAreThirdParagraph:
+      'Whether at home or on the go, PCNIS Inc. is here to bring convenience and care to your daily life.',
 
     whyChooseUsTitle: 'Why choose us?',
-    whyChooseUsContentHeader:
+    whyChooseUsFirstParagraph:
       'At PCNIS Inc., we prioritize quality, reliability, and customer satisfaction in everything we do. Here’s why you can trust us:',
+    whyChooseUsSecondParagraph:
+      'Choose PCNIS Inc. for products that enhance daily life with comfort and confidence.',
 
     whyChooseUsHighQualityProductsTitle: 'High-Quality Products',
     whyChooseUsHighQualityProductsContent: ' Carefully selected to meet the highest standards.',
@@ -52,9 +61,6 @@ const messages = {
 
     whyChooseUsHighCanadaTitle: 'Based in Québec, Canada',
     whyChooseUsHighCanadaContent: ' Proudly serving customers with excellence and care.',
-
-    whyChooseUsContentFooter:
-      'Choose PCNIS Inc. for products that enhance daily life with comfort and confidence.',
 
     contactTitle: 'Contact Us',
     contactSubtitle: 'Get in touch with us for inquiries, support, or more information.',
@@ -83,8 +89,11 @@ const messages = {
     headerAboutUsLink: 'À propos de nous',
     headerProductsLink: 'Produits',
 
-    heroHeader:
-      '<span class="text-primary">Bienvenue</span> sur le site de PCNIS Inc, <br /> où vous <span class="text-primary">apprendrez à mieux nous connaître !</span>',
+    heroWelcome: 'Bienvenue',
+    heroWelcomeFollowUp: 'chez PCNIS Inc,',
+    heroSecondLine: 'ici, vous pourrez',
+    heroSecondLineFollowUp: 'mieux nous connaître !',
+
     heroSubHeadline:
       'Nous fournissons des produits de haute qualité conçus pour améliorer la satisfaction des clients, garantissant sécurité, fiabilité et innovation dans chaque solution.',
     heroCardButton: "Plus d'informations",
@@ -110,12 +119,19 @@ const messages = {
     aboutSubtitle: 'En savoir plus sur notre mission, nos valeurs et notre engagement.',
 
     whoWeAreTitle: 'Qui nous sommes',
-    whoWeAreContent:
-      'Chez PCNIS Inc., nous nous engageons à fournir des produits de haute qualité qui améliorent le confort et le bien-être. <br/><br/> Basés à Québec, Canada, nous sommes spécialisés dans les essentiels de pharmacie, les vêtements, le linge de bain et les bijoux, offrant des solutions fiables et pratiques pour les besoins quotidiens. Notre engagement envers la qualité et la satisfaction de nos clients garantit que chaque produit répond aux normes les plus élevées. <br/><br/> Que ce soit à la maison ou en déplacement, PCNIS Inc. est là pour vous apporter commodité et soin au quotidien.',
+
+    whoWeAreFirstParagraph:
+      'Chez PCNIS Inc., nous nous engageons à fournir des produits de haute qualité qui améliorent le confort et le bien-être.',
+    whoWeAreSecondParagraph:
+      'Basés à Québec, Canada, nous sommes spécialisés dans les essentiels de pharmacie, les vêtements, le linge de bain et les bijoux, offrant des solutions fiables et pratiques pour les besoins quotidiens. Notre engagement envers la qualité et la satisfaction de nos clients garantit que chaque produit répond aux normes les plus élevées.',
+    whoWeAreThirdParagraph:
+      'Que ce soit à la maison ou en déplacement, PCNIS Inc. est là pour vous apporter commodité et soin au quotidien.',
 
     whyChooseUsTitle: 'Pourquoi nous choisir ?',
-    whyChooseUsContentHeader:
+    whyChooseUsFirstParagraph:
       'Chez PCNIS Inc., nous mettons la qualité, la fiabilité et la satisfaction du client au cœur de tout ce que nous faisons. Voici pourquoi vous pouvez nous faire confiance :',
+    whyChooseUsSecondParagraph:
+      'Choisissez PCNIS Inc. pour des produits qui améliorent le quotidien avec confort et confiance.',
 
     whyChooseUsHighQualityProductsTitle: 'Produits de haute qualité',
     whyChooseUsHighQualityProductsContent:
@@ -131,9 +147,6 @@ const messages = {
 
     whyChooseUsHighCanadaTitle: 'Basé à Québec, Canada',
     whyChooseUsHighCanadaContent: 'Fier de servir nos clients avec excellence et attention.',
-
-    whyChooseUsContentFooter:
-      'Choisissez PCNIS Inc. pour des produits qui améliorent le quotidien avec confort et confiance.',
 
     contactTitle: 'Contactez-nous',
     contactSubtitle: 'Contactez-nous pour toute demande, support ou plus d’informations.',
@@ -161,8 +174,11 @@ const messages = {
     headerAboutUsLink: 'Sobre nós',
     headerProductsLink: 'Produtos',
 
-    heroHeader:
-      '<span class="text-primary">Bem-vindo</span> à PCNIS Inc, <br /> aqui você nos <span class="text-primary">conhecerá melhor!</span>',
+    heroWelcome: 'Bem-vindo',
+    heroWelcomeFollowUp: 'à PCNIS Inc,',
+    heroSecondLine: 'aqui você poderá',
+    heroSecondLineFollowUp: 'nos conhecer melhor!',
+
     heroSubHeadline:
       'Fornecemos produtos de alta qualidade projetados para aumentar a satisfação do cliente,garantindo segurança, confiabilidade e inovação em cada solução.',
     heroCardButton: 'Mais informações',
@@ -191,12 +207,19 @@ const messages = {
       'Acessórios especializados, projetados para estilo e funcionalidade.',
 
     whoWeAreTitle: 'Quem somos',
-    whoWeAreContent:
-      'Na PCNIS Inc., estamos comprometidos em fornecer produtos de alta qualidade que promovem conforto e bem-estar. <br/><br/> Sediados em Québec, Canadá, somos especializados em itens de farmácia, vestuário, roupas de banho e joias, oferecendo soluções confiáveis e práticas para as necessidades do dia a dia. Nossa dedicação à qualidade e à satisfação do cliente garante que cada produto atenda aos mais altos padrões. <br/><br/> Seja em casa ou em movimento, a PCNIS Inc. está aqui para trazer praticidade e cuidado para sua vida diária.',
+    whoWeAreFirstParagraph:
+      'Na PCNIS Inc., estamos comprometidos em fornecer produtos de alta qualidade que promovem conforto e bem-estar.',
+    whoWeAreSecondParagraph:
+      'Sediados em Québec, Canadá, somos especializados em itens de farmácia, vestuário, roupas de banho e joias, oferecendo soluções confiáveis e práticas para as necessidades do dia a dia. Nossa dedicação à qualidade e à satisfação do cliente garante que cada produto atenda aos mais altos padrões.',
+    whoWeAreThirdParagraph:
+      'Seja em casa ou em movimento, a PCNIS Inc. está aqui para trazer praticidade e cuidado para sua vida diária.',
 
     whyChooseUsTitle: 'Por que escolher-nos?',
-    whyChooseUsContentHeader:
+    whyChooseUsFirstParagraph:
       'Na PCNIS Inc., priorizamos qualidade, confiabilidade e satisfação do cliente em tudo o que fazemos. Aqui está o porquê você pode confiar em nós:',
+
+    whyChooseUsSecondParagraph:
+      'Escolha a PCNIS Inc. para produtos que aprimoram o dia a dia com conforto e confiança.',
 
     whyChooseUsHighQualityProductsTitle: 'Produtos de Alta Qualidade',
     whyChooseUsHighQualityProductsContent:
@@ -211,9 +234,6 @@ const messages = {
 
     whyChooseUsHighCanadaTitle: 'Sediada em Québec, Canadá',
     whyChooseUsHighCanadaContent: 'Atendendo clientes com excelência e dedicação.',
-
-    whyChooseUsContentFooter:
-      'Escolha a PCNIS Inc. para produtos que aprimoram o dia a dia com conforto e confiança.',
 
     contactTitle: 'Entre em Contato',
     contactSubtitle: 'Fale conosco para dúvidas, suporte ou mais informações.',

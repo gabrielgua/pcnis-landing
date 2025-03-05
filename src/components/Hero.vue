@@ -12,9 +12,14 @@ import Icon from './Icon.vue';
         class="max-w-[750px] flex flex-col items-start gap-12 border border-primary/20 rounded-3xl shadow-xl shadow-accent/10 bg-white/80 p-8">
         <Icon icon="info-circle" class="text-primary ring ring-primary ring-offset-2 rounded-full" />
         <div class="flex flex-col gap-6">
-          <h1 v-html="$t('heroHeader')" class="text-4xl font-bold text-text-primary">
+          <h1 class="text-4xl font-bold text-text-primary">
+            <span class="text-primary">{{ $t('heroWelcome') }}</span>
+            {{ $t('heroWelcomeFollowUp') }}
+            <br>
+            {{ $t('heroSecondLine') }}
+            <span class="text-primary">{{ $t('heroSecondLineFollowUp') }}</span>
           </h1>
-          <p v-html="$t('heroSubHeadline')" class="text-text-secondary text-sm"></p>
+          <p v-html="$t('heroSubHeadline')" class="text-text-primary font-light text-sm"></p>
         </div>
 
         <Button variant="primary" size="lg" class="max-w-max">

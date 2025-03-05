@@ -38,7 +38,9 @@ const bulletPoints = computed(() => [
           <AboutSubSectionContent icon="circle-question">
             <template #title>{{ $t('whoWeAreTitle') }}</template>
             <template #content>
-              <p class="text-base font-light text-text-primary" v-html="$t('whoWeAreContent')"></p>
+              <p class="text-base font-light text-text-primary">{{ $t('whoWeAreFirstParagraph') }}</p><br />
+              <p class="text-base font-light text-text-primary">{{ $t('whoWeAreSecondParagraph') }}</p><br />
+              <p class="text-base font-light text-text-primary">{{ $t('whoWeAreThirdParagraph') }}</p>
             </template>
           </AboutSubSectionContent>
         </AboutSubSection>
@@ -46,9 +48,9 @@ const bulletPoints = computed(() => [
           <AboutSubSectionContent icon="bullseye">
             <template #title>{{ $t('whyChooseUsTitle') }}</template>
             <template #content>
-              {{ $t('whyChooseUsContentHeader') }}
+              {{ $t('whyChooseUsFirstParagraph') }}
               <br /><br />
-              {{ $t('whyChooseUsContentFooter') }}
+              {{ $t('whyChooseUsSecondParagraph') }}
             </template>
           </AboutSubSectionContent>
 

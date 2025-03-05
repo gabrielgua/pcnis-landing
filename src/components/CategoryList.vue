@@ -24,12 +24,12 @@ const categories = computed(() => [
   <ul class="gap-6 grid grid-cols-4">
 
     <Card v-for="(categorie, index) in categories" :key="index" class="flex flex-col hover:scale-105 transition-all">
-      <img class="rounded-2xl w-full max-h-[220px] object-cover" :src="categorie.img" alt="product">
+      <img class="rounded-2xl w-full aspect-video max-h-[220px] object-cover" :src="categorie.img" alt="product">
       <h2 class="font-semibold text-xl text-text-primary my-4">{{ categorie.title }}</h2>
       <p class="text-text-secondary text-sm mb-4">{{ categorie.description }}</p>
 
       <div class="mt-auto">
-        <Button variant="primary-link">
+        <Button size="sm" class="w-full justify-center">
           {{ $t('categoryButton') }}
           <Icon icon="arrow-right" size="sm" />
         </Button>
