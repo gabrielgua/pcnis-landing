@@ -16,7 +16,7 @@ import Button from './Button.vue';
       <p class="text-text-primary-light">{{ $t('contactSubtitle') }}</p>
     </template>
     <template #content>
-      <section class="grid grid-cols-2">
+      <section class="flex justify-between gap-16 flex-wrap">
         <div class="text-text-primary-light">
           <div class="flex items-center gap-6 mb-3">
             <Card class="size-10 grid place-items-center p-0! shadow-2xl! shadow-black/10">
@@ -24,7 +24,7 @@ import Button from './Button.vue';
             </Card>
             <h2 class="font-semibold">{{ $t('contactPhone') }}</h2>
           </div>
-          <p class="font-light text-6xl">{{ Constants.contactPhone }}</p>
+          <p class="font-light text-4xl md:text-5xl lg:text-6xl">{{ Constants.contactPhone }}</p>
         </div>
         <div class="text-text-primary-light">
           <div class="flex items-center gap-6 mb-3">
@@ -33,7 +33,8 @@ import Button from './Button.vue';
             </Card>
             <h2 class="font-semibold">{{ $t('contactEmail') }}</h2>
           </div>
-          <p class="font-light text-6xl">{{ Constants.supportEmail }}</p>
+          <p class="font-light text-4xl md:text-5xl lg:text-6xl break-all lg:break-normal">{{ Constants.supportEmail }}
+          </p>
         </div>
       </section>
       <Button variant="neutral" class="max-w-max" size="lg">

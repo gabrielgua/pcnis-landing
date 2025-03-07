@@ -9,12 +9,10 @@ import Footer from '@/components/Footer.vue';
 </script>
 
 <template>
-  <Header />
-  <main class="flex flex-col gap-12">
+  <section class="flex flex-col gap-12">
     <Hero />
     <Categories />
     <About id="about" />
     <Contact class="mt-12" />
-  </main>
-  <Footer />
+  </section>
 </template>

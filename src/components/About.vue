@@ -28,14 +28,14 @@ const bulletPoints = computed(() => [
       <p class="text-text-primary" v-html="$t('aboutSubtitle')"></p>
     </template>
     <template #content>
-      <section class="flex flex-col gap-44">
+      <section class="flex flex-col gap-24 lg:gap-44">
 
 
-        <AboutSubSection class="grid-cols-[auto_1fr]">
-          <Card>
-            <img src="../assets/images/about.png" alt="About image" class="rounded-2xl max-h-[400px]">
+        <div class="grid md:grid-cols-2 xl:grid-cols-[auto_1fr] gap-16">
+          <Card class="order-2 md:order-1">
+            <img src="../assets/images/about.png" alt="About image" class="rounded-2xl w-full h-full object-cover">
           </Card>
-          <AboutSubSectionContent icon="circle-question">
+          <AboutSubSectionContent class="order-1 md:order-2" icon="circle-question">
             <template #title>{{ $t('whoWeAreTitle') }}</template>
             <template #content>
               <p class="text-base font-light text-text-primary">{{ $t('whoWeAreFirstParagraph') }}</p><br />
@@ -43,8 +43,8 @@ const bulletPoints = computed(() => [
               <p class="text-base font-light text-text-primary">{{ $t('whoWeAreThirdParagraph') }}</p>
             </template>
           </AboutSubSectionContent>
-        </AboutSubSection>
-        <AboutSubSection class="grid-cols-[1fr_2fr]">
+        </div>
+        <div class="grid lg:grid-cols-[1fr_2fr] gap-16">
           <AboutSubSectionContent icon="bullseye">
             <template #title>{{ $t('whyChooseUsTitle') }}</template>
             <template #content>
@@ -65,7 +65,7 @@ const bulletPoints = computed(() => [
               <p class="font-light text-start">{{ item.content }}</p>
             </BulletPointItem>
           </TransitionGroup>
-        </AboutSubSection>
+        </div>
       </section>
     </template>
   </Section>

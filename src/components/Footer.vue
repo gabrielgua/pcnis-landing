@@ -20,7 +20,7 @@ const socials = [
 
 <template>
   <footer class="bg-slate-950 text-text-primary-light pt-12 pb-6 ">
-    <Container class="grid grid-cols-5">
+    <Container class="flex flex-wrap *:grow gap-12">
       <section class="flex flex-col gap-6">
         <Logo inverted />
         <p class="font-light text-sm text-text-secondary-light">
@@ -72,7 +72,7 @@ const socials = [
       </FooterSection>
 
       <section
-        class="col-span-5 mt-6 pt-6 text-text-secondary-light font-light text-xs flex items-center justify-between border-t border-t-primary/10">
+        class="w-full  pt-6 text-text-secondary-light font-light text-xs flex gap-12 items-center justify-between border-t border-t-primary/10">
         <p>&copy; {{ $t('footerCopyright') }}</p>
         <p>
           {{ $t('footerDevelopedBy') }}

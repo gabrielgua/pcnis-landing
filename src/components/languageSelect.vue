@@ -26,13 +26,13 @@ const languages = new Map<string, string>([
 </script>
 
 <template>
-  <main class="flex items-center px-2 border border-zinc-200 divide-x divide-zinc-200 rounded-xl">
+  <main class="flex items-center px-2 border border-zinc-100 divide-x divide-zinc-200 rounded-xl">
     <div class="p-2 ps-0">
       <img :src="languages.get(langStore.language)">
     </div>
 
-    <select v-model="langStore.language" @change="langStore.changeLanguage(langStore.language)" class="text-sm ps-1"
-      name="lang" id="lang">
+    <select v-model="langStore.language" @change="langStore.changeLanguage(langStore.language)"
+      class="text-sm w-full md:w-max ps-1" name="lang" id="lang">
       <option v-for="option in languageOptions" :key="option.value" :value="option.value">{{ option.text }}</option>
     </select>
   </main>

@@ -21,7 +21,7 @@ const categories = computed(() => [
 </script>
 
 <template>
-  <ul class="gap-6 grid grid-cols-4">
+  <ul class="gap-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
 
     <Card v-for="(categorie, index) in categories" :key="index" class="flex flex-col hover:scale-105 transition-all">
       <img class="rounded-2xl w-full aspect-video max-h-[220px] object-cover" :src="categorie.img" alt="product">
