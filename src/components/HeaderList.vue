@@ -9,7 +9,7 @@ const clicked = () => emit('clicked');
 <template>
   <ul class="flex items-center gap-6">
     <li>
-      <HeaderLink to="/home" @click="clicked">{{ $t('headerHomeLink') }}</HeaderLink>
+      <HeaderLink to="/" @click="clicked">{{ $t('headerHomeLink') }}</HeaderLink>
     </li>
     <li>
       <HeaderLink to="/products" @click="clicked">{{ $t('headerProductsLink') }}</HeaderLink>

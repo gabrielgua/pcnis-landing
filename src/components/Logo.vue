@@ -6,7 +6,7 @@ defineProps<{ inverted?: boolean }>();
 </script>
 
 <template>
-  <RouterLink to="/home">
+  <RouterLink to="/">
     <div class="flex items-center gap-2">
       <p class="text-sky-600 text-3xl font-extrabold italic">PCNIS</p>
       <Icon icon="circle-nodes" class="text-primary" />
