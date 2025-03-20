@@ -18,6 +18,7 @@ const formspreeStore = useFormspreeStore();
 
 const handleSubmit = async (form: ContactForm) => {
   await formspreeStore.send(form);
+  window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 </script>
