@@ -1,0 +1,72 @@
+{
+  "headerHomeLink": "Home",
+  "headerContactLink": "Contact",
+  "headerAboutUsLink": "About us",
+  "headerProductsLink": "Products",
+
+  "heroWelcome": "Welcome",
+  "heroWelcomeFollowUp": "to PCNIS Inc,",
+  "heroSecondLine": "here you will get to",
+  "heroSecondLineFollowUp": "know us better!",
+
+  "heroSubHeadline": "We provide high-quality products designed to enhance customer satisfaction, ensuring safety, reliability, and innovation in every solution.",
+  "heroCardButton": "More information",
+  "categoriesTitle": "Our Selection",
+  "categoriesSubtitle": "Explore our range of high-quality products designed for comfort and well-being.",
+  "categoriesPharmacyTitle": "Pharmacy",
+  "categoriesPharmacyDescription": "Reliable medical supplies and health essentials.",
+
+  "categoriesClothingTitle": "Clothing",
+  "categoriesClothingDescription": "Comfortable and adaptive wear for daily use.",
+
+  "categoriesTowelsTitle": "Bath Linen",
+  "categoriesTowelsDescription": "Essential products for hygiene and assisted care.",
+
+  "categoriesJewelryTitle": "Jewelry ",
+  "categoriesJewelryDescription": "Specialized accessories designed for both style and functionality.",
+  "categoryButton": "More info",
+
+  "aboutTitle": "About us",
+  "aboutSubtitle": "Learn more about our mission, values, and commitment.",
+
+  "whoWeAreTitle": "Who we are",
+  "whoWeAreFirstParagraph": "At PCNIS Inc., we are committed to providing high-quality products that enhance comfort and well-being.",
+  "whoWeAreSecondParagraph": "Based in Québec, Canada, we specialize in pharmacy essentials, clothing, bath linens, and jewelry, offering reliable and practical solutions for everyday needs. Our dedication to quality and customer satisfaction ensures that every product meets the highest standards. ",
+  "whoWeAreThirdParagraph": "Whether at home or on the go, PCNIS Inc. is here to bring convenience and care to your daily life.",
+
+  "whyChooseUsTitle": "Why choose us?",
+  "whyChooseUsFirstParagraph": "At PCNIS Inc., we prioritize quality, reliability, and customer satisfaction in everything we do. Here’s why you can trust \"us\":",
+  "whyChooseUsSecondParagraph": "Choose PCNIS Inc. for products that enhance daily life with comfort and confidence.",
+
+  "whyChooseUsHighQualityProductsTitle": "High-Quality Products",
+  "whyChooseUsHighQualityProductsContent": " Carefully selected to meet the highest standards.",
+
+  "whyChooseUsHighExpertiseTitle": "Expertise & Commitment",
+  "whyChooseUsHighExpertiseContent": " A dedicated team ensuring the best solutions for your needs.",
+
+  "whyChooseUsHighTrustedTitle": "Trusted & Reliable",
+  "whyChooseUsHighTrustedContent": "Products designed for comfort, safety, and long-term use.",
+
+  "whyChooseUsHighCanadaTitle": "Based in Québec, Canada",
+  "whyChooseUsHighCanadaContent": " Proudly serving customers with excellence and care.",
+
+  "contactTitle": "Contact Us",
+  "contactSubtitle": "Get in touch with us for inquiries, support, or more information.",
+
+  "contactPhone": "Phone Number",
+  "contactEmail": "Email Address",
+
+  "contactButton": "Contact us",
+
+  "footerWelcome": "Welcome to PCNIS Inc,",
+  "footerWelcomeText": "here you will get to know us better!",
+
+  "footerSocialsTitle": "Socials",
+  "footerQuickLinksTitle": "Quick Links",
+
+  "footerContactTitle": "Contact",
+  "footerLocationTitle": "Location",
+
+  "footerCopyright": "2025 PCNIS Inc. All rights reserved.",
+  "footerDevelopedBy": "Developed by"
+}

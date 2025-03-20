@@ -1,0 +1,76 @@
+{
+  "headerHomeLink": "Início",
+  "headerContactLink": "Contato",
+  "headerAboutUsLink": "Sobre nós",
+  "headerProductsLink": "Produtos",
+
+  "heroWelcome": "Bem-vindo",
+  "heroWelcomeFollowUp": "à PCNIS Inc,",
+  "heroSecondLine": "aqui você poderá",
+  "heroSecondLineFollowUp": "nos conhecer melhor!",
+
+  "heroSubHeadline": "Fornecemos produtos de alta qualidade projetados para aumentar a satisfação do cliente,garantindo segurança, confiabilidade e inovação em cada solução.",
+  "heroCardButton": "Mais informações",
+
+  "categoriesTitle": "Nossa Seleção",
+  "categoriesSubtitle": "Explore nossa linha de produtos de alta qualidade, desenvolvidos para conforto e bem-estar.",
+
+  "categoryButton": "Mais informações",
+
+  "aboutTitle": "Sobre nós",
+  "aboutSubtitle": "Saiba mais sobre nossa missão, valores e compromisso.",
+
+  "categoriesPharmacyTitle": "Farmácia",
+  "categoriesPharmacyDescription": "Suprimentos médicos confiáveis e itens essenciais para a saúde.",
+
+  "categoriesClothingTitle": "Vestuário",
+  "categoriesClothingDescription": "Roupas confortáveis e adaptáveis para o uso diário.",
+
+  "categoriesTowelsTitle": "Roupas de Banho",
+  "categoriesTowelsDescription": "Produtos essenciais para higiene e cuidados assistidos.",
+
+  "categoriesJewelryTitle": "Joias",
+  "categoriesJewelryDescription": "Acessórios especializados, projetados para estilo e funcionalidade.",
+
+  "whoWeAreTitle": "Quem somos",
+  "whoWeAreFirstParagraph": "Na PCNIS Inc., estamos comprometidos em fornecer produtos de alta qualidade que promovem conforto e bem-estar.",
+  "whoWeAreSecondParagraph": "Sediados em Québec, Canadá, somos especializados em itens de farmácia, vestuário, roupas de banho e joias, oferecendo soluções confiáveis e práticas para as necessidades do dia a dia. Nossa dedicação à qualidade e à satisfação do cliente garante que cada produto atenda aos mais altos padrões.",
+  "whoWeAreThirdParagraph": "Seja em casa ou em movimento, a PCNIS Inc. está aqui para trazer praticidade e cuidado para sua vida diária.",
+
+  "whyChooseUsTitle": "Por que escolher-nos?",
+  "whyChooseUsFirstParagraph": "Na PCNIS Inc., priorizamos qualidade, confiabilidade e satisfação do cliente em tudo o que fazemos. Aqui está o porquê você pode confiar em nós:",
+
+  "whyChooseUsSecondParagraph": "Escolha a PCNIS Inc. para produtos que aprimoram o dia a dia com conforto e confiança.",
+
+  "whyChooseUsHighQualityProductsTitle": "Produtos de Alta Qualidade",
+  "whyChooseUsHighQualityProductsContent": "Cuidadosamente selecionados para atender aos mais altos padrões.",
+
+  "whyChooseUsHighExpertiseTitle": "Expertise & Compromisso",
+  "whyChooseUsHighExpertiseContent": "Uma equipe dedicada garantindo as melhores soluções para suas necessidades.",
+
+  "whyChooseUsHighTrustedTitle": "Confiável & Seguro",
+  "whyChooseUsHighTrustedContent": "Produtos projetados para conforto, segurança e uso prolongado.",
+
+  "whyChooseUsHighCanadaTitle": "Sediada em Québec, Canadá",
+  "whyChooseUsHighCanadaContent": "Atendendo clientes com excelência e dedicação.",
+
+  "contactTitle": "Entre em Contato",
+  "contactSubtitle": "Fale conosco para dúvidas, suporte ou mais informações.",
+
+  "contactPhone": "Número de Telefone",
+  "contactEmail": "Endereço de E-mail",
+
+  "contactButton": "Entre em Contato",
+
+  "footerWelcome": "Bem-vindo à PCNIS Inc,",
+  "footerWelcomeText": "aqui você poderá nos conhecer melhor!",
+
+  "footerSocialsTitle": "Redes Sociais",
+  "footerQuickLinksTitle": "Links Rápidos",
+
+  "footerContactTitle": "Contato",
+  "footerLocationTitle": "Localização",
+
+  "footerCopyright": "2025 PCNIS Inc. Todos os direitos reservados.",
+  "footerDevelopedBy": "Desenvolvido por"
+}
