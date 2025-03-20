@@ -5,6 +5,7 @@ import Icon from './Icon.vue';
 import Card from './Card.vue';
 import Button from './Button.vue';
 
+
 </script>
 
 <template>
@@ -37,10 +38,12 @@ import Button from './Button.vue';
           </p>
         </div>
       </section>
-      <Button variant="neutral" class="max-w-max" size="lg">
-        {{ $t('contactButton') }}
-        <Icon icon="arrow-right" size="sm" />
-      </Button>
+      <RouterLink to="/contact">
+        <Button variant="neutral" class="max-w-max" size="lg">
+          {{ $t('contactButton') }}
+          <Icon icon="arrow-right" size="sm" />
+        </Button>
+      </RouterLink>
 
     </template>
   </Section>
