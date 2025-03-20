@@ -11,11 +11,8 @@ import Icon from './Icon.vue';
       <Icon icon="question" size="lg" class="text-primary" />
     </Card>
 
-    <h2 class="text-xl font-semibold mb-6">Have a question?</h2>
-    <p class="text-sm mb-4">
-      We're here to help! Fill out the form or reach us via email or phone.
-      We are available to help you get the best experience possible.
-    </p>
+    <h2 class="text-xl font-semibold mb-6">{{ $t("contactPageQuestionCardHeading") }}</h2>
+    <p class="text-sm mb-4">{{ $t("contactPageQuestionCardBody") }}</p>
 
     <ul class="text-sm flex flex-col gap-2 mt-6">
       <li class="flex items-center gap-3 bg-slate-50 p-4 rounded-xl">

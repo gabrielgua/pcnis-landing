@@ -68,5 +68,38 @@
   "footerLocationTitle": "Location",
 
   "footerCopyright": "2025 PCNIS Inc. All rights reserved.",
-  "footerDevelopedBy": "Developed by"
+  "footerDevelopedBy": "Developed by",
+
+  "contactPageTitle": "Contact Us",
+  "contactPageSubtitle": "Get in touch! We'll be happy to help.",
+
+  "contactPageSuccessHeading": "Message sent successfully!",
+  "contactPageSuccessBody": "We'll reach back to you as soon as possible. Stay tuned on the email you provided.",
+
+  "contactPageErrorHeading": "Error while trying to send message.",
+  "contactPageErrorBody": "Something ocurred while trying to send your message, please try again later.",
+
+  "contactPageQuestionCardHeading": "Have a question?",
+  "contactPageQuestionCardBody": "We're here to help! Fill out the form or reach us via email or phone. We are available to help you get the best experience possible.",
+
+  "contactPageFormCardHeading": "Send us a message.",
+
+  "contactPageFormCardFirstNameLabel": "First Name*",
+  "contactPageFormCardFirstNamePlaceholder": "Enter your first name",
+
+  "contactPageFormCardLastNameLabel": "Last Name*",
+  "contactPageFormCardLastNamePlaceholder": "Enter your last name",
+
+  "contactPageFormCardEmailLabel": "Email*",
+  "contactPageFormCardEmailPlaceholder": "Enter your best email",
+
+  "contactPageFormCardPhoneLabel": "Phone number",
+  "contactPageFormCardPhonePlaceholder": "Enter your best phone number",
+
+  "contactPageFormCardMessageLabel": "Message*",
+  "contactPageFormCardMessagePlaceholder": "Write us your message",
+
+  "contactPageFormCardSubmitButton": "Submit",
+
+  "contactPageFormCardSendingMessage": "Sending message..."
 }

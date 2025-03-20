@@ -24,8 +24,8 @@ const handleSubmit = async (form: ContactForm) => {
 
 <template>
   <Section>
-    <template #title>Contact Us</template>
-    <template #subtitle>Get in touch! We'll be happy to help.</template>
+    <template #title>{{ $t('contactPageTitle') }}</template>
+    <template #subtitle>{{ $t('contactPageSubtitle') }}</template>
     <template #content>
       <FadeTransition>
         <ContactSuccessCard v-if="formspreeStore.state.success" />

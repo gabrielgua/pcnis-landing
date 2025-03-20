@@ -72,5 +72,38 @@
   "footerLocationTitle": "Localização",
 
   "footerCopyright": "2025 PCNIS Inc. Todos os direitos reservados.",
-  "footerDevelopedBy": "Desenvolvido por"
+  "footerDevelopedBy": "Desenvolvido por",
+
+  "contactPageTitle": "Contato",
+  "contactPageSubtitle": "Entre em contato! Ficaremos felizes em ajudar.",
+
+  "contactPageSuccessHeading": "Mensagem enviada com sucesso!",
+  "contactPageSuccessBody": "Responderemos o mais rápido possível. Fique atento ao e-mail informado.",
+
+  "contactPageErrorHeading": "Erro ao tentar enviar a mensagem.",
+  "contactPageErrorBody": "Ocorreu um problema ao enviar sua mensagem. Tente novamente mais tarde.",
+
+  "contactPageQuestionCardHeading": "Tem alguma dúvida?",
+  "contactPageQuestionCardBody": "Estamos aqui para ajudar! Preencha o formulário ou entre em contato por e-mail ou telefone. Estamos disponíveis para garantir a melhor experiência possível.",
+
+  "contactPageFormCardHeading": "Envie-nos uma mensagem.",
+
+  "contactPageFormCardFirstNameLabel": "Nome*",
+  "contactPageFormCardFirstNamePlaceholder": "Digite seu nome",
+
+  "contactPageFormCardLastNameLabel": "Sobrenome*",
+  "contactPageFormCardLastNamePlaceholder": "Digite seu sobrenome",
+
+  "contactPageFormCardEmailLabel": "E-mail*",
+  "contactPageFormCardEmailPlaceholder": "Digite seu melhor e-mail",
+
+  "contactPageFormCardPhoneLabel": "Número de telefone",
+  "contactPageFormCardPhonePlaceholder": "Digite seu melhor número de telefone",
+
+  "contactPageFormCardMessageLabel": "Mensagem*",
+  "contactPageFormCardMessagePlaceholder": "Escreva sua mensagem para nós",
+
+  "contactPageFormCardSubmitButton": "Enviar",
+
+  "contactPageFormCardSendingMessage": "Enviando mensagem..."
 }
