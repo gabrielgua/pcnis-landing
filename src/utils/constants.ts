@@ -1,4 +1,4 @@
 export const Constants = {
-  contactPhone: '+9 999-999-9999',
+  contactPhone: '+418-389-8322',
   supportEmail: 'support.help@pcnis.com',
 }
