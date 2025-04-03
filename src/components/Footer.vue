@@ -52,10 +52,10 @@ const socials = [
             <FooterLink to="/contact">{{ $t('headerContactLink') }}</FooterLink>
           </li>
           <li>
-            <FooterLink to="/about">{{ $t('headerAboutUsLink') }}</FooterLink>
+            <FooterLink to="/about" disabled>{{ $t('headerAboutUsLink') }}</FooterLink>
           </li>
           <li>
-            <FooterLink to="/products">{{ $t('headerProductsLink') }}</FooterLink>
+            <FooterLink to="/products" disabled>{{ $t('headerProductsLink') }}</FooterLink>
           </li>
         </ul>
       </FooterSection>

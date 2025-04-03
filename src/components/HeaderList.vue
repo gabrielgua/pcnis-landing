@@ -12,10 +12,10 @@ const clicked = () => emit('clicked');
       <HeaderLink to="/" @click="clicked">{{ $t('headerHomeLink') }}</HeaderLink>
     </li>
     <li>
-      <HeaderLink to="/products" @click="clicked">{{ $t('headerProductsLink') }}</HeaderLink>
+      <HeaderLink to="/products" @click="clicked" disabled>{{ $t('headerProductsLink') }}</HeaderLink>
     </li>
     <li>
-      <HeaderLink to="/about" @click="clicked">{{ $t('headerAboutUsLink') }}</HeaderLink>
+      <HeaderLink to="/about" @click="clicked" disabled>{{ $t('headerAboutUsLink') }}</HeaderLink>
     </li>
     <li>
       <HeaderLink to="/contact" @click="clicked">{{ $t('headerContactLink') }}</HeaderLink>
